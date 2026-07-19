@@ -1,0 +1,52 @@
+{
+  "name": "pi-agent-cc-setup",
+  "version": "1.0.0",
+  "description": "Make Pi Agent feel like Claude Code — TUI chrome, compact tool traces, plan/execute workflow, theme, and prompts.",
+  "license": "MIT",
+  "author": "Henrique Arthur",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriquearthur/pi-agent-cc-setup.git"
+  },
+  "homepage": "https://github.com/henriquearthur/pi-agent-cc-setup",
+  "bugs": {
+    "url": "https://github.com/henriquearthur/pi-agent-cc-setup/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "claude-code",
+    "tui",
+    "extensions",
+    "themes",
+    "prompts"
+  ],
+  "files": [
+    "extensions",
+    "themes",
+    "prompts",
+    "config",
+    "scripts",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "prompts": [
+      "./prompts"
+    ],
+    "themes": [
+      "./themes"
+    ]
+  }
+}
