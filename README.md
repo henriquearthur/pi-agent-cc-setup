@@ -6,6 +6,12 @@ A ready-to-install Pi package: Claude-like TUI chrome, compact tool traces, plan
 
 > Not affiliated with Anthropic or Claude Code. This is a community configuration pack for [Pi](https://pi.dev).
 
+<p align="center">
+  <img src="docs/images/tui-preview.png" alt="Pi Agent with the Claude Code-like setup: compact header, clean editor, and status footer" width="900" />
+</p>
+
+<p align="center"><sub>Quiet header · tight editor · footer with project, context %, model, and thinking level</sub></p>
+
 ---
 
 ## What you get
@@ -21,15 +27,6 @@ A ready-to-install Pi package: Claude-like TUI chrome, compact tool traces, plan
 | **Theme** | Warm orange/cream `claude-code` palette |
 | **Prompts** | `/commit`, `/review`, `/security-review`, `/test` |
 | **Preamble** | Codex-style progress updates via `APPEND_SYSTEM.md` |
-
-```text
-✦ Pi  my-app  ·  / commands  ·  Ctrl+Alt+P plan
-
-› $ rg -n "TODO" src
-  ↳ output hidden · 12 lines · Ctrl+O
-
- my-app • main │ ⏸ plan │ ctx 18%  claude-sonnet-4  high
-```
 
 ---
 
